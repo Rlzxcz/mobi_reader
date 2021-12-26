@@ -4,6 +4,7 @@
         <script>
             function onChange(event) {
               var file = event.target.files[0];
+                console.log(file)
               var reader = new FileReader();
               reader.onload = function(event) {
                 var file_content = event.target.result;
